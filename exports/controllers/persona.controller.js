@@ -5,51 +5,51 @@ import { getPersonaCategoryById, getOrCreatePersonaCategory } from '../services/
 
 var personaClassifier = new limdu.classifiers.Bayesian();
 
-personaClassifier.trainBatch([{  
-  input:{  
-     sector:"bouw"
+personaClassifier.trainBatch([{
+  input: {
+      sector: "bouw"
   },
-  output:"weaklang_nonvisualcom"
-},{  
-  input:{  
-     sector:"Industrie & energie"
+  output: "weaklang_nonvisualcom"
+}, {
+  input: {
+      sector: "Industrie & energie"
   },
-  output:'weaklang_nonvisualcom'
-},{  
-  input:{  
-     sector:"Zorg & welzijn"
+  output: 'weaklang_nonvisualcom'
+}, {
+  input: {
+      sector: "Zorg & welzijn"
   },
-  output:'stronglang_nonvisualcom'
-},{  
-  input:{  
-     sector:"Handel & horeca"
+  output: 'stronglang_nonvisualcom'
+}, {
+  input: {
+      sector: "Handel & horeca"
   },
-  output:'weaklang_nonvisualcom'
-},{  
-  input:{  
-     sector:"Transport"
+  output: 'weaklang_nonvisualcom'
+}, {
+  input: {
+      sector: "Transport"
   },
-  output:'stronglang_nonvisualcom'
-},{  
-  input:{  
-     sector:"Overigedienstverlening"
+  output: 'stronglang_nonvisualcom'
+}, {
+  input: {
+      sector: "Overigedienstverlening"
   },
-  output:'stronglang_visualcom'
-},{  
-  input:{  
-     sector:"F&Z dienstverlening"
+  output: 'stronglang_visualcom'
+}, {
+  input: {
+      sector: "F&Z dienstverlening"
   },
-  output:'stronglang_visualcom'
-},{  
-  input:{  
-     sector:"Openbaar bestuur"
+  output: 'stronglang_visualcom'
+}, {
+  input: {
+      sector: "Openbaar bestuur"
   },
-  output:'stronglang_visualcom'
-},{  
-  input:{  
-     sector:"Onderwijs"
+  output: 'stronglang_visualcom'
+}, {
+  input: {
+      sector: "Onderwijs"
   },
-  output:'stronglang_visualcom'
+  output: 'stronglang_visualcom'
 }]);
 
 export const get = (req, res) => {
@@ -67,10 +67,9 @@ export const get = (req, res) => {
 }
 
 export const create = async (req, res) => {
-  console.log(personaClassifier.classify({sector:"Openbaar bestuur"}));
-  const magiclyAssignedCategory = await getOrCreatePersonaCategory('medium');
+  const assignedCategory = await getOrCreatePersonaCategory(personaClassifier.classify({sector:"Openbaar bestuur"}));
 
-  createPersona({ personaCategoryId: magiclyAssignedCategory[0].personaCategoryId })
+  createPersona({ personaCategoryId: assignedCategory[0].personaCategoryId })
     .then(persona => {
       res.status(200).cookie('persona_tag', persona.personaId, {signed: true }).send({ success: true, msg: "Persona created, cookie set" });
     })
@@ -81,9 +80,9 @@ export const create = async (req, res) => {
 }
 
 export const reassign = async (req, res) => {
-  const magiclyAssignedCategory = await getOrCreatePersonaCategory('medium');
+  const assignedCategory = await getOrCreatePersonaCategory(personaClassifier.classify({sector:"Openbaar bestuur"}));
 
-  updatePersona(req.signedCookies.persona_tag, magiclyAssignedCategory)
+  updatePersona(req.signedCookies.persona_tag, assignedCategory[0].personaCategoryId)
     .then(() => {
       res.status(200).send({ success: true, msg: "Persona updated" });
     })
