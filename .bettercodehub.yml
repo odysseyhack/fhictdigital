@@ -1,2 +1,3 @@
 exclude:
 - .*/server\.js
+- .*/sequalize\.js
