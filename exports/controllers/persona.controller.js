@@ -1,5 +1,5 @@
-import { getPersona } from '../services/persona.service';
-import { getPersonaCategoryById } from '../services/persona_category.service';
+import { getPersona, createPersona } from '../services/persona.service';
+import { getPersonaCategoryById, getOrCreatePersonaCategory } from '../services/persona_category.service';
 
 export const get = (req, res) => {
   getPersona(req.params.personaId)
@@ -12,5 +12,18 @@ export const get = (req, res) => {
     .catch(err => {
       console.log(err);
       res.status(404).send({ success: false, msg: "Persona could not be delivered" });
+    });
+}
+
+export const create = async (req, res) => {
+  const magiclyAssignedCategory = await getOrCreatePersonaCategory('nl_advanced');
+
+  createPersona({ personaCategoryId: magiclyAssignedCategory[0].personaCategoryId })
+    .then(persona => {
+      res.status(200).send({ success: true, data: persona.personaId });
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(400).send({ success: false, msg: "Persona could not be created" });
     });
 }
