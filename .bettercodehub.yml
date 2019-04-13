@@ -1,4 +1,5 @@
 exclude:
+- /exports/validators/.*
 - .*/server\.js
 - .*/sequalize\.js
 - .*/exports/data\.js
