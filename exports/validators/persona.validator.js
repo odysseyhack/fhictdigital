@@ -1,7 +1,7 @@
 import Joi from 'joi';
 
 const personaIdSchema = Joi.object().keys({
-  adminId: Joi.string().min(36).max(36).required()
+  personaId: Joi.string().min(36).max(36).required()
 });
 
 export const idValidator = (req, res, next) => {
