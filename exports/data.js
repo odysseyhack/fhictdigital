@@ -1,1095 +1,1090 @@
-export default {
-  trainInput: [
-    {
-      "age": 24,
-      "gender": "male",
-      "sector": "Zorg & welzijn",
-      "income": 8700,
-      "residence": "Zuid Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 51,
-      "gender": "female",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Flevoland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 28,
-      "gender": "female",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Zeeland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 20,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Groningen",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 22,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 9400,
-      "residence": "Zuid Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 30,
-      "gender": "female",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Zuid Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 42,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 9200,
-      "residence": "Utrecht",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 34,
-      "gender": "female",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Limburg",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 63,
-      "gender": "male",
-      "sector": "Industrie & energie",
-      "income": 9800,
-      "residence": "Noord Brabant",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 33,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 7200,
-      "residence": "Groningen",
-      "nationality": "Spanje"
-    },
-    {
-      "age": 19,
-      "gender": "male",
-      "sector": "Industrie & energie",
-      "income": 6100,
-      "residence": "Noord Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 65,
-      "gender": "male",
-      "sector": "F&Z dienstverlening",
-      "income": 17000,
-      "residence": "Friesland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 52,
-      "gender": "female",
-      "sector": "Openbaar bestuur",
-      "income": 9200,
-      "residence": "Limburg",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 21,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 10700,
-      "residence": "Utrecht",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 23,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 6700,
-      "residence": "Flevoland",
-      "nationality": "Belgie"
-    },
-    {
-      "age": 26,
-      "gender": "female",
-      "sector": "F&Z dienstverlening",
-      "income": 17000,
-      "residence": "Flevoland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 25,
-      "gender": "female",
-      "sector": "Bouw",
-      "income": 9400,
-      "residence": "Noord Holland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 48,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Overijsel",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 20,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Utrecht",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 40,
-      "gender": "male",
-      "sector": "F&Z dienstverlening",
-      "income": 11900,
-      "residence": "Limburg",
-      "nationality": "USA"
-    },
-    {
-      "age": 53,
-      "gender": "female",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Groningen",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 60,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 9400,
-      "residence": "Limburg",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 39,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 4800,
-      "residence": "Drenthe",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 47,
-      "gender": "female",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Gelderland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 24,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 9200,
-      "residence": "Overijsel",
-      "nationality": "VK"
-    },
-    {
-      "age": 55,
-      "gender": "male",
-      "sector": "Industrie & energie",
-      "income": 9800,
-      "residence": "Utrecht",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 42,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 6700,
-      "residence": "Overijsel",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 44,
-      "gender": "female",
-      "sector": "Overigedienstverlening",
-      "income": 4800,
-      "residence": "Limburg",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 27,
-      "gender": "female",
-      "sector": "Handel & horeca",
-      "income": 6700,
-      "residence": "Zeeland",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 28,
-      "gender": "female",
-      "sector": "Zorg & welzijn",
-      "income": 8700,
-      "residence": "Limburg",
-      "nationality": "Belgie"
-    },
-    {
-      "age": 48,
-      "gender": "female",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Zuid Holland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 34,
-      "gender": "female",
-      "sector": "F&Z dienstverlening",
-      "income": 11900,
-      "residence": "Limburg",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 52,
-      "gender": "female",
-      "sector": "Zorg & welzijn",
-      "income": 5300,
-      "residence": "Friesland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 52,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Drenthe",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 59,
-      "gender": "female",
-      "sector": "Industrie & energie",
-      "income": 9800,
-      "residence": "Zeeland",
-      "nationality": "Spanje"
-    },
-    {
-      "age": 62,
-      "gender": "female",
-      "sector": "Industrie & energie",
-      "income": 6100,
-      "residence": "Zuid Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 25,
-      "gender": "female",
-      "sector": "Overigedienstverlening",
-      "income": 4800,
-      "residence": "Utrecht",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 60,
-      "gender": "female",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Limburg",
-      "nationality": "Spanje"
-    },
-    {
-      "age": 30,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 17000,
-      "residence": "Friesland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 29,
-      "gender": "female",
-      "sector": "Zorg & welzijn",
-      "income": 8700,
-      "residence": "Noord Brabant",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 46,
-      "gender": "male",
-      "sector": "Zorg & welzijn",
-      "income": 5300,
-      "residence": "Overijsel",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 65,
-      "gender": "female",
-      "sector": "F&Z dienstverlening",
-      "income": 17000,
-      "residence": "Limburg",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 26,
-      "gender": "female",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Groningen",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 57,
-      "gender": "male",
-      "sector": "Zorg & welzijn",
-      "income": 8700,
-      "residence": "Utrecht",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 36,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 4800,
-      "residence": "Drenthe",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 61,
-      "gender": "female",
-      "sector": "Bouw",
-      "income": 9400,
-      "residence": "Flevoland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 31,
-      "gender": "female",
-      "sector": "F&Z dienstverlening",
-      "income": 17000,
-      "residence": "Zeeland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 52,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Limburg",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 32,
-      "gender": "female",
-      "sector": "Handel & horeca",
-      "income": 10700,
-      "residence": "Gelderland",
-      "nationality": "Belgie"
-    },
-    {
-      "age": 38,
-      "gender": "female",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Drenthe",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 29,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Gelderland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 53,
-      "gender": "female",
-      "sector": "Zorg & welzijn",
-      "income": 5300,
-      "residence": "Utrecht",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 64,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Zeeland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 53,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 6700,
-      "residence": "Noord Holland",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 64,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 9200,
-      "residence": "Gelderland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 49,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Friesland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 65,
-      "gender": "female",
-      "sector": "Industrie & energie",
-      "income": 9800,
-      "residence": "Gelderland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 33,
-      "gender": "female",
-      "sector": "Overigedienstverlening",
-      "income": 7200,
-      "residence": "Utrecht",
-      "nationality": "Belgie"
-    },
-    {
-      "age": 55,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Noord Holland",
-      "nationality": "Belgie"
-    },
-    {
-      "age": 55,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 10700,
-      "residence": "Utrecht",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 49,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Zeeland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 29,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 7200,
-      "residence": "Zuid Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 56,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 6700,
-      "residence": "Drenthe",
-      "nationality": "Belgie"
-    },
-    {
-      "age": 62,
-      "gender": "male",
-      "sector": "Zorg & welzijn",
-      "income": 8700,
-      "residence": "Utrecht",
-      "nationality": "VK"
-    },
-    {
-      "age": 18,
-      "gender": "female",
-      "sector": "Handel & horeca",
-      "income": 6700,
-      "residence": "Drenthe",
-      "nationality": "Spanje"
-    },
-    {
-      "age": 46,
-      "gender": "female",
-      "sector": "Transport",
-      "income": 17000,
-      "residence": "Flevoland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 19,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 4800,
-      "residence": "Utrecht",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 40,
-      "gender": "male",
-      "sector": "Industrie & energie",
-      "income": 9800,
-      "residence": "Groningen",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 37,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 7200,
-      "residence": "Utrecht",
-      "nationality": "Spanje"
-    },
-    {
-      "age": 32,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 7400,
-      "residence": "Overijsel",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 39,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 15800,
-      "residence": "Overijsel",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 55,
-      "gender": "female",
-      "sector": "Overigedienstverlening",
-      "income": 4800,
-      "residence": "Friesland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 65,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Utrecht",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 35,
-      "gender": "female",
-      "sector": "Industrie & energie",
-      "income": 6100,
-      "residence": "Zeeland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 53,
-      "gender": "female",
-      "sector": "Zorg & welzijn",
-      "income": 8700,
-      "residence": "Zuid Holland",
-      "nationality": "Duitsland"
-    },
-    {
-      "age": 42,
-      "gender": "male",
-      "sector": "F&Z dienstverlening",
-      "income": 11900,
-      "residence": "Zuid Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 50,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 9200,
-      "residence": "Zeeland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 52,
-      "gender": "male",
-      "sector": "Openbaar bestuur",
-      "income": 9200,
-      "residence": "Noord Brabant",
-      "nationality": "USA"
-    },
-    {
-      "age": 41,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Limburg",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 48,
-      "gender": "male",
-      "sector": "Industrie & energie",
-      "income": 6100,
-      "residence": "Gelderland",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 40,
-      "gender": "male",
-      "sector": "F&Z dienstverlening",
-      "income": 17000,
-      "residence": "Drenthe",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 20,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 17000,
-      "residence": "Flevoland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 36,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 10700,
-      "residence": "Noord Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 46,
-      "gender": "female",
-      "sector": "Overigedienstverlening",
-      "income": 7200,
-      "residence": "Groningen",
-      "nationality": "Duitsland"
-    },
-    {
-      "age": 38,
-      "gender": "female",
-      "sector": "Handel & horeca",
-      "income": 6700,
-      "residence": "Utrecht",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 32,
-      "gender": "male",
-      "sector": "Bouw",
-      "income": 9400,
-      "residence": "Gelderland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 64,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 7200,
-      "residence": "Utrecht",
-      "nationality": "USA"
-    },
-    {
-      "age": 34,
-      "gender": "male",
-      "sector": "Industrie & energie",
-      "income": 6100,
-      "residence": "Zuid Holland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 55,
-      "gender": "female",
-      "sector": "Bouw",
-      "income": 9400,
-      "residence": "Drenthe",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 38,
-      "gender": "female",
-      "sector": "F&Z dienstverlening",
-      "income": 11900,
-      "residence": "Utrecht",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 19,
-      "gender": "female",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Noord Holland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 65,
-      "gender": "male",
-      "sector": "Industrie & energie",
-      "income": 9800,
-      "residence": "Drenthe",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 29,
-      "gender": "male",
-      "sector": "Handel & horeca",
-      "income": 10700,
-      "residence": "Utrecht",
-      "nationality": "Duitsland"
-    },
-    {
-      "age": 62,
-      "gender": "female",
-      "sector": "Industrie & energie",
-      "income": 6100,
-      "residence": "Gelderland",
-      "nationality": "Marocco"
-    },
-    {
-      "age": 27,
-      "gender": "male",
-      "sector": "F&Z dienstverlening",
-      "income": 11900,
-      "residence": "Zeeland",
-      "nationality": "Belgie"
-    },
-    {
-      "age": 29,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Zuid Holland",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 47,
-      "gender": "male",
-      "sector": "Overigedienstverlening",
-      "income": 4800,
-      "residence": "Zeeland",
-      "nationality": "Turkije"
-    },
-    {
-      "age": 57,
-      "gender": "male",
-      "sector": "Transport",
-      "income": 11900,
-      "residence": "Drenthe",
-      "nationality": "Nederland"
-    },
-    {
-      "age": 23,
-      "gender": "male",
-      "sector": "Zorg & welzijn",
-      "income": 8700,
-      "residence": "Utrecht",
-      "nationality": "Marocco"
-    }
-  ],
-  trainOutput: [
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_nonvisualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "stronglang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    },
-    {
-      "label": "weaklang_visualcom"
-    }
-  ]
-}
+export default[
+{
+  input: {
+      age: 24,
+      gender: "male",
+      income: 8700,
+      sector: "Zorg & welzijn",
+      residence: "Zuid Holland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 51,
+      gender: "female",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Flevoland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 28,
+      gender: "female",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Zeeland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 20,
+      gender: "male",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Groningen",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 22,
+      gender: "male",
+      income: 9400,
+      sector: "Bouw",
+      residence: "Zuid Holland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 30,
+      gender: "female",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Zuid Holland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 42,
+      gender: "male",
+      income: 9200,
+      sector: "Openbaar bestuur",
+      residence: "Utrecht",
+      nationality: "Marocco"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 34,
+      gender: "female",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Limburg",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 63,
+      gender: "male",
+      income: 9800,
+      sector: "Industrie & energie",
+      residence: "Noord Brabant",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 33,
+      gender: "male",
+      income: 7200,
+      sector: "Overigedienstverlening",
+      residence: "Groningen",
+      nationality: "Spanje"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 19,
+      gender: "male",
+      income: 6100,
+      sector: "Industrie & energie",
+      residence: "Noord Holland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 65,
+      gender: "male",
+      income: 17000,
+      sector: "F&Z dienstverlening",
+      residence: "Friesland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 52,
+      gender: "female",
+      income: 9200,
+      sector: "Openbaar bestuur",
+      residence: "Limburg",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 21,
+      gender: "male",
+      income: 10700,
+      sector: "Handel & horeca",
+      residence: "Utrecht",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 23,
+      gender: "male",
+      income: 6700,
+      sector: "Handel & horeca",
+      residence: "Flevoland",
+      nationality: "Belgie"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 26,
+      gender: "female",
+      income: 17000,
+      sector: "F&Z dienstverlening",
+      residence: "Flevoland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 25,
+      gender: "female",
+      income: 9400,
+      sector: "Bouw",
+      residence: "Noord Holland",
+      nationality: "Turkije"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 48,
+      gender: "male",
+      income: 11900,
+      sector: "Transport",
+      residence: "Overijsel",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 20,
+      gender: "male",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Utrecht",
+      nationality: "Nederland"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 40,
+      gender: "male",
+      income: 11900,
+      sector: "F&Z dienstverlening",
+      residence: "Limburg",
+      nationality: "USA"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 53,
+      gender: "female",
+      income: 11900,
+      sector: "Transport",
+      residence: "Groningen",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 60,
+      gender: "male",
+      income: 9400,
+      sector: "Bouw",
+      residence: "Limburg",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 39,
+      gender: "male",
+      income: 4800,
+      sector: "Overigedienstverlening",
+      residence: "Drenthe",
+      nationality: "Turkije"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 47,
+      gender: "female",
+      income: 11900,
+      sector: "Transport",
+      residence: "Gelderland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 24,
+      gender: "male",
+      income: 9200,
+      sector: "Openbaar bestuur",
+      residence: "Overijsel",
+      nationality: "VK"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 55,
+      gender: "male",
+      income: 9800,
+      sector: "Industrie & energie",
+      residence: "Utrecht",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 42,
+      gender: "male",
+      income: 6700,
+      sector: "Handel & horeca",
+      residence: "Overijsel",
+      nationality: "Marocco"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 44,
+      gender: "female",
+      income: 4800,
+      sector: "Overigedienstverlening",
+      residence: "Limburg",
+      nationality: "Turkije"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 27,
+      gender: "female",
+      income: 6700,
+      sector: "Handel & horeca",
+      residence: "Zeeland",
+      nationality: "Marocco"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 28,
+      gender: "female",
+      income: 8700,
+      sector: "Zorg & welzijn",
+      residence: "Limburg",
+      nationality: "Belgie"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 48,
+      gender: "female",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Zuid Holland",
+      nationality: "Turkije"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 34,
+      gender: "female",
+      income: 11900,
+      sector: "F&Z dienstverlening",
+      residence: "Limburg",
+      nationality: "Marocco"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 52,
+      gender: "female",
+      income: 5300,
+      sector: "Zorg & welzijn",
+      residence: "Friesland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 52,
+      gender: "male",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Drenthe",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 59,
+      gender: "female",
+      income: 9800,
+      sector: "Industrie & energie",
+      residence: "Zeeland",
+      nationality: "Spanje"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 62,
+      gender: "female",
+      income: 6100,
+      sector: "Industrie & energie",
+      residence: "Zuid Holland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 25,
+      gender: "female",
+      income: 4800,
+      sector: "Overigedienstverlening",
+      residence: "Utrecht",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 60,
+      gender: "female",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Limburg",
+      nationality: "Spanje"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 30,
+      gender: "male",
+      income: 17000,
+      sector: "Transport",
+      residence: "Friesland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 29,
+      gender: "female",
+      income: 8700,
+      sector: "Zorg & welzijn",
+      residence: "Noord Brabant",
+      nationality: "Marocco"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 46,
+      gender: "male",
+      income: 5300,
+      sector: "Zorg & welzijn",
+      residence: "Overijsel",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 65,
+      gender: "female",
+      income: 17000,
+      sector: "F&Z dienstverlening",
+      residence: "Limburg",
+      nationality: "Nederland"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 26,
+      gender: "female",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Groningen",
+      nationality: "Marocco"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 57,
+      gender: "male",
+      income: 8700,
+      sector: "Zorg & welzijn",
+      residence: "Utrecht",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 36,
+      gender: "male",
+      income: 4800,
+      sector: "Overigedienstverlening",
+      residence: "Drenthe",
+      nationality: "Turkije"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 61,
+      gender: "female",
+      income: 9400,
+      sector: "Bouw",
+      residence: "Flevoland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 31,
+      gender: "female",
+      income: 17000,
+      sector: "F&Z dienstverlening",
+      residence: "Zeeland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 52,
+      gender: "male",
+      income: 11900,
+      sector: "Transport",
+      residence: "Limburg",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 32,
+      gender: "female",
+      income: 10700,
+      sector: "Handel & horeca",
+      residence: "Gelderland",
+      nationality: "Belgie"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 38,
+      gender: "female",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Drenthe",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 29,
+      gender: "male",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Gelderland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 53,
+      gender: "female",
+      income: 5300,
+      sector: "Zorg & welzijn",
+      residence: "Utrecht",
+      nationality: "Marocco"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 64,
+      gender: "male",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Zeeland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 53,
+      gender: "male",
+      income: 6700,
+      sector: "Handel & horeca",
+      residence: "Noord Holland",
+      nationality: "Marocco"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 64,
+      gender: "male",
+      income: 9200,
+      sector: "Openbaar bestuur",
+      residence: "Gelderland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 49,
+      gender: "male",
+      income: 11900,
+      sector: "Transport",
+      residence: "Friesland",
+      nationality: "Turkije"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 65,
+      gender: "female",
+      income: 9800,
+      sector: "Industrie & energie",
+      residence: "Gelderland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 33,
+      gender: "female",
+      income: 7200,
+      sector: "Overigedienstverlening",
+      residence: "Utrecht",
+      nationality: "Belgie"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 55,
+      gender: "male",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Noord Holland",
+      nationality: "Belgie"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 55,
+      gender: "male",
+      income: 10700,
+      sector: "Handel & horeca",
+      residence: "Utrecht",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 49,
+      gender: "male",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Zeeland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 29,
+      gender: "male",
+      income: 7200,
+      sector: "Overigedienstverlening",
+      residence: "Zuid Holland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 56,
+      gender: "male",
+      income: 6700,
+      sector: "Handel & horeca",
+      residence: "Drenthe",
+      nationality: "Belgie"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 62,
+      gender: "male",
+      income: 8700,
+      sector: "Zorg & welzijn",
+      residence: "Utrecht",
+      nationality: "VK"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 18,
+      gender: "female",
+      income: 6700,
+      sector: "Handel & horeca",
+      residence: "Drenthe",
+      nationality: "Spanje"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 46,
+      gender: "female",
+      income: 17000,
+      sector: "Transport",
+      residence: "Flevoland",
+      nationality: "Turkije"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 19,
+      gender: "male",
+      income: 4800,
+      sector: "Overigedienstverlening",
+      residence: "Utrecht",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 40,
+      gender: "male",
+      income: 9800,
+      sector: "Industrie & energie",
+      residence: "Groningen",
+      nationality: "Nederland"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 37,
+      gender: "male",
+      income: 7200,
+      sector: "Overigedienstverlening",
+      residence: "Utrecht",
+      nationality: "Spanje"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 32,
+      gender: "male",
+      income: 7400,
+      sector: "Openbaar bestuur",
+      residence: "Overijsel",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 39,
+      gender: "male",
+      income: 15800,
+      sector: "Bouw",
+      residence: "Overijsel",
+      nationality: "Marocco"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 55,
+      gender: "female",
+      income: 4800,
+      sector: "Overigedienstverlening",
+      residence: "Friesland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 65,
+      gender: "male",
+      income: 11900,
+      sector: "Transport",
+      residence: "Utrecht",
+      nationality: "Marocco"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 35,
+      gender: "female",
+      income: 6100,
+      sector: "Industrie & energie",
+      residence: "Zeeland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 53,
+      gender: "female",
+      income: 8700,
+      sector: "Zorg & welzijn",
+      residence: "Zuid Holland",
+      nationality: "Duitsland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 42,
+      gender: "male",
+      income: 11900,
+      sector: "F&Z dienstverlening",
+      residence: "Zuid Holland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 50,
+      gender: "male",
+      income: 9200,
+      sector: "Openbaar bestuur",
+      residence: "Zeeland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 52,
+      gender: "male",
+      income: 9200,
+      sector: "Openbaar bestuur",
+      residence: "Noord Brabant",
+      nationality: "USA"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 41,
+      gender: "male",
+      income: 11900,
+      sector: "Transport",
+      residence: "Limburg",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 48,
+      gender: "male",
+      income: 6100,
+      sector: "Industrie & energie",
+      residence: "Gelderland",
+      nationality: "Marocco"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 40,
+      gender: "male",
+      income: 17000,
+      sector: "F&Z dienstverlening",
+      residence: "Drenthe",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 20,
+      gender: "male",
+      income: 17000,
+      sector: "Transport",
+      residence: "Flevoland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 36,
+      gender: "male",
+      income: 10700,
+      sector: "Handel & horeca",
+      residence: "Noord Holland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 46,
+      gender: "female",
+      income: 7200,
+      sector: "Overigedienstverlening",
+      residence: "Groningen",
+      nationality: "Duitsland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 38,
+      gender: "female",
+      income: 6700,
+      sector: "Handel & horeca",
+      residence: "Utrecht",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 32,
+      gender: "male",
+      income: 9400,
+      sector: "Bouw",
+      residence: "Gelderland",
+      nationality: "Nederland"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 64,
+      gender: "male",
+      income: 7200,
+      sector: "Overigedienstverlening",
+      residence: "Utrecht",
+      nationality: "USA"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 34,
+      gender: "male",
+      income: 6100,
+      sector: "Industrie & energie",
+      residence: "Zuid Holland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 55,
+      gender: "female",
+      income: 9400,
+      sector: "Bouw",
+      residence: "Drenthe",
+      nationality: "Turkije"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 38,
+      gender: "female",
+      income: 11900,
+      sector: "F&Z dienstverlening",
+      residence: "Utrecht",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 19,
+      gender: "female",
+      income: 11900,
+      sector: "Transport",
+      residence: "Noord Holland",
+      nationality: "Turkije"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 65,
+      gender: "male",
+      income: 9800,
+      sector: "Industrie & energie",
+      residence: "Drenthe",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 29,
+      gender: "male",
+      income: 10700,
+      sector: "Handel & horeca",
+      residence: "Utrecht",
+      nationality: "Duitsland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 62,
+      gender: "female",
+      income: 6100,
+      sector: "Industrie & energie",
+      residence: "Gelderland",
+      nationality: "Marocco"
+  },
+  output: "weaklang_nonvisualcom"
+},
+{
+  input: {
+      age: 27,
+      gender: "male",
+      income: 11900,
+      sector: "F&Z dienstverlening",
+      residence: "Zeeland",
+      nationality: "Belgie"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 29,
+      gender: "male",
+      income: 11900,
+      sector: "Transport",
+      residence: "Zuid Holland",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 47,
+      gender: "male",
+      income: 4800,
+      sector: "Overigedienstverlening",
+      residence: "Zeeland",
+      nationality: "Turkije"
+  },
+  output: "stronglang_visualcom"
+},
+{
+  input: {
+      age: 57,
+      gender: "male",
+      income: 11900,
+      sector: "Transport",
+      residence: "Drenthe",
+      nationality: "Nederland"
+  },
+  output: "weaklang_visualcom"
+},
+{
+  input: {
+      age: 23,
+      gender: "male",
+      income: 8700,
+      sector: "Zorg & welzijn",
+      residence: "Utrecht",
+      nationality: "Marocco"
+  },
+  output: "weaklang_visualcom"
+}]
