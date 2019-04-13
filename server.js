@@ -6,9 +6,7 @@ import cors from 'cors';
 
 import routes from './exports/routes/'
 
-const app = express().use(urlencoded({ extended: true })).use(json()).use(cors({ origin: '*', optionsSuccessStatus: 204 })).use(Staticworkaround('public')).use(helmet());
-
-app.options('*', cors());
+const app = express().use(urlencoded({ extended: true })).use(json()).use(cors({ origin: '*', optionsSuccessStatus: 204 })).use(Staticworkaround('public')).use(helmet()).options('*', cors());
 
 app.use(function (req, res, next) {
   console.log(req.body);
