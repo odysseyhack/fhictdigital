@@ -9,7 +9,8 @@ import routes from './exports/routes/'
 
 var corsOptions = {
   origin: '*',
-  optionsSuccessStatus: 204
+  optionsSuccessStatus: 204,
+  credentials: true
 }
 
 const app = express();

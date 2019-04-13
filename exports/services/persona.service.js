@@ -8,6 +8,6 @@ export const createPersona = (persona) => {
   return Persona.create(persona);
 }
 
-export const updatePersona = (personaId, ) => {
-  return Book.update({title: req.body.title}, {where: req.params.bookId})
+export const updatePersona = (personaId, personaCategoryId) => {
+  return Persona.update({ personaCategoryId: personaCategoryId }, { where: { personaId: personaId }});
 }
