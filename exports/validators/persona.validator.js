@@ -1,6 +1,6 @@
 import Joi from 'joi';
 
-const personaId = Joi.string().min(36).max(36).required()
+const personaId = Joi.string().min(36).max(36).required();
 
 export const cookieIdValidator = (req, res, next) => {
   if (!req.signedCookies.persona_tag)

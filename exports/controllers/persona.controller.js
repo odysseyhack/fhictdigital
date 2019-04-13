@@ -27,3 +27,7 @@ export const create = async (req, res) => {
       res.status(400).send({ success: false, msg: "Persona could not be created" });
     });
 }
+
+export const reassign = async (req, res) => {
+  res.status(200).cookie('persona_tag', 'fdfdsafdsfdsafdaffdsfadsafsdafds', {signed: true }).send({ success: true });
+}
