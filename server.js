@@ -1,6 +1,7 @@
 require('dotenv').config();
 import express, { static as Staticworkaround } from 'express';
 import { urlencoded, json } from "body-parser";
+import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
 import cors from 'cors';
 
@@ -15,6 +16,7 @@ const app = express();
 
 app.use(urlencoded({ extended: true }));
 app.use(json());
+app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(cors(corsOptions));
 app.use(Staticworkaround('public'));
 app.use(helmet());

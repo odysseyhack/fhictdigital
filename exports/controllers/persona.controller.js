@@ -2,7 +2,7 @@ import { getPersona, createPersona } from '../services/persona.service';
 import { getPersonaCategoryById, getOrCreatePersonaCategory } from '../services/persona_category.service';
 
 export const get = (req, res) => {
-  getPersona(req.params.personaId)
+  getPersona(req.signedCookies.persona_tag)
     .then(persona => {
       getPersonaCategoryById(persona.personaCategoryId)
         .then(personaCategory => {
@@ -20,7 +20,7 @@ export const create = async (req, res) => {
 
   createPersona({ personaCategoryId: magiclyAssignedCategory[0].personaCategoryId })
     .then(persona => {
-      res.status(200).send({ success: true, data: persona.personaId });
+      res.status(200).cookie('persona_tag', persona.personaId, {signed: true }).send({ success: true });
     })
     .catch(err => {
       console.log(err);
