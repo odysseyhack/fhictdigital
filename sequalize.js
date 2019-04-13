@@ -14,7 +14,7 @@ const sequelize = new Sequelize(process.env.DB_DBS, process.env.DB_USER, process
 const Persona = PersonaModel(sequelize, Sequelize);
 const PersonaCategory = PersonaCategoryModel(sequelize, Sequelize);
 
-Persona.belongsTo(PersonaCategory);
+Persona.belongsTo(PersonaCategory, { foreignKey: 'personaCategoryId' });
 
 sequelize.sync()
   .catch(err => { console.log(err); });
