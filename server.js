@@ -8,7 +8,6 @@ import cors from 'cors';
 import routes from './exports/routes/'
 
 var corsOptions = {
-  origin: '*',
   optionsSuccessStatus: 204,
   credentials: true
 }
@@ -25,6 +24,7 @@ app.use(helmet());
 app.options('*', cors());
 
 app.use(function (req, res, next) {
+  res.setHeader( "Access-Control-Allow-Origin", req.headers.origin );
   console.log(req.body);
   console.log(req.method);
   next();
