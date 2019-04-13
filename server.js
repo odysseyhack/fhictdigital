@@ -21,8 +21,12 @@ app.use(cors(corsOptions));
 app.use(Staticworkaround('public'));
 app.use(helmet());
 
+app.options('*', cors());
+
 app.use(function (req, res, next) {
-  res.setHeader( "Access-Control-Allow-Origin", req.headers.origin );
+  if (req.headers.origin)
+    res.setHeader( "Access-Control-Allow-Origin", req.headers.origin );
+    
   console.log(req.body);
   console.log(req.method);
   next();

@@ -1,5 +1,56 @@
+import limdu from 'limdu';
+import data from '../data';
 import { getPersona, createPersona, updatePersona } from '../services/persona.service';
 import { getPersonaCategoryById, getOrCreatePersonaCategory } from '../services/persona_category.service';
+
+var personaClassifier = new limdu.classifiers.Bayesian();
+
+personaClassifier.trainBatch([{  
+  input:{  
+     sector:"bouw"
+  },
+  output:"weaklang_nonvisualcom"
+},{  
+  input:{  
+     sector:"Industrie & energie"
+  },
+  output:'weaklang_nonvisualcom'
+},{  
+  input:{  
+     sector:"Zorg & welzijn"
+  },
+  output:'stronglang_nonvisualcom'
+},{  
+  input:{  
+     sector:"Handel & horeca"
+  },
+  output:'weaklang_nonvisualcom'
+},{  
+  input:{  
+     sector:"Transport"
+  },
+  output:'stronglang_nonvisualcom'
+},{  
+  input:{  
+     sector:"Overigedienstverlening"
+  },
+  output:'stronglang_visualcom'
+},{  
+  input:{  
+     sector:"F&Z dienstverlening"
+  },
+  output:'stronglang_visualcom'
+},{  
+  input:{  
+     sector:"Openbaar bestuur"
+  },
+  output:'stronglang_visualcom'
+},{  
+  input:{  
+     sector:"Onderwijs"
+  },
+  output:'stronglang_visualcom'
+}]);
 
 export const get = (req, res) => {
   getPersona(req.signedCookies.persona_tag)
@@ -16,7 +67,8 @@ export const get = (req, res) => {
 }
 
 export const create = async (req, res) => {
-  const magiclyAssignedCategory = await getOrCreatePersonaCategory('advanced');
+  console.log(personaClassifier.classify({sector:"Openbaar bestuur"}));
+  const magiclyAssignedCategory = await getOrCreatePersonaCategory('medium');
 
   createPersona({ personaCategoryId: magiclyAssignedCategory[0].personaCategoryId })
     .then(persona => {
