@@ -6,18 +6,10 @@ const sequelize = new Sequelize(process.env.DB_DBS, process.env.DB_USER, process
   host: process.env.DB_HOST,
   dialect: 'mysql',
   timezone: 'Europe/Amsterdam',
-  pool: {
-    max: 10,
-    min: 0,
-    acquire: 30000,
-    idle: 10000
-  }
+  pool: { max: 10, min: 0, acquire: 30000, idle: 10000 }
 });
 
-// sequelize.sync({ force: true })
 sequelize.sync()
-  .catch(err => {
-    console.log(err);
-  })
+  .catch(err => { console.log(err); });
 
 export {}
