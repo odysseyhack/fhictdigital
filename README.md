@@ -11,4 +11,3 @@ Reasons for excluding certain files/folders from bettercodehub by item:
 **- /exports/validators:** The way this validation works is by receiving the resolution, the request and a next function (3 parameters). BetterCodeHub does not like this and there is no way to configure this rule. That is why I have excluded this folder. This might not be good practive but I have not found a better and cleaner way.. (Yes I know this is calculated from a percentage of code having more then 2 parameters. The codebase is just to small I think)
 
 **- /exports/data.js:** This is plain data consisting out of objects. This will 100% trigger the system on duplicates and to many code in units. Think everybody agrees dat data is not code :)
-  
