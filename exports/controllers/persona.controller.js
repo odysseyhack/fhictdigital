@@ -26,7 +26,7 @@ export const create = async (req, res) => {
 
   createPersona({ personaCategoryId: assignedCategory[0].personaCategoryId })
     .then(persona => {
-      res.status(200).cookie('persona_tag', persona.personaId, {signed: true }).send({ success: true, msg: "Persona created, cookie set" });
+      res.status(200).cookie('persona_tag', persona.personaId, { signed: true }).send({ success: true, msg: "Persona created, cookie set" });
     })
     .catch(err => {
       console.log(err);

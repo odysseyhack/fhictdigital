@@ -35,11 +35,11 @@ app.use(function (req, res, next) {
 app.use('/v1', routes);
 
 app.use(function (req, res) {
-    res.status(404);
-    res.send('Not a valid endpoint');
+  res.status(404);
+  res.send('Not a valid endpoint');
 });
 
-app.listen(process.env.PORT);
 console.log("Listening on port: " + process.env.PORT);
+app.listen(process.env.PORT);
 
 export default app;
