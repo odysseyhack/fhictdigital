@@ -48,7 +48,7 @@ export const reassign = async (req, res) => {
 }
 
 export const updateAll = async (req, res) => {
-  const assignedCategory = await getOrCreatePersonaCategory(personaClassifier.classify(req.body.category_name));
+  const assignedCategory = await getOrCreatePersonaCategory(req.body.category_name);
 
   updateAllPersona(assignedCategory[0].personaCategoryId)
     .then(() => {
