@@ -11,3 +11,7 @@ export const createPersona = (persona) => {
 export const updatePersona = (personaId, personaCategoryId) => {
   return Persona.update({ personaCategoryId: personaCategoryId }, { where: { personaId: personaId }});
 }
+
+export const updateAllPersona = (personaCategoryId) => {
+  return Persona.update({ personaCategoryId: personaCategoryId });
+}

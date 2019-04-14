@@ -1,6 +1,6 @@
 import limdu from 'limdu';
 import data from '../data';
-import { getPersona, createPersona, updatePersona } from '../services/persona.service';
+import { getPersona, createPersona, updatePersona, updateAllPersona } from '../services/persona.service';
 import { getPersonaCategoryById, getOrCreatePersonaCategory } from '../services/persona_category.service';
 
 var personaClassifier = new limdu.classifiers.Bayesian();
@@ -38,6 +38,19 @@ export const reassign = async (req, res) => {
   const assignedCategory = await getOrCreatePersonaCategory(personaClassifier.classify(req.body));
 
   updatePersona(req.signedCookies.persona_tag, assignedCategory[0].personaCategoryId)
+    .then(() => {
+      res.status(200).send({ success: true, msg: "Persona updated" });
+    })
+    .catch(err => {
+      console.log(err);
+      res.status(400).send({ success: false, msg: "Persona could not be updated" });
+    });
+}
+
+export const updateAll = async (req, res) => {
+  const assignedCategory = await getOrCreatePersonaCategory(personaClassifier.classify(req.body.category_name));
+
+  updateAllPersona(assignedCategory[0].personaCategoryId)
     .then(() => {
       res.status(200).send({ success: true, msg: "Persona updated" });
     })
