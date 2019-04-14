@@ -20,7 +20,7 @@ export const cookieIdValidator = (req, res, next) => {
       next();
     })
     .catch(validationError => {
-      res.status(400).send({ success: false, msg: `Invalid request: ${validationError.details.map(d => d.message)}` });
+      res.status(200).send({ success: false, msg: `Invalid request: ${validationError.details.map(d => d.message)}` });
     });
 }
 
