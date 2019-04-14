@@ -17,7 +17,7 @@ export const get = (req, res) => {
     })
     .catch(err => {
       console.log(err);
-      res.status(404).send({ success: false, msg: "Persona could not be delivered" });
+      res.status(200).send({ success: false, msg: "Persona could not be delivered" });
     });
 }
 
